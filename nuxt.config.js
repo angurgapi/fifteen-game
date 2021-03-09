@@ -1,9 +1,14 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  target: 'static',
+  ssr: true,
+  router: {
+      base: '/fifteen-game/',
+      },
   head: {
-    title: 'fift',
+    title: 'fifteen-game',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ru'
     },
     meta: [
       { charset: 'utf-8' },

@@ -77,14 +77,7 @@ export default {
 </script>
 
 <style lang='sass'>
-.container 
-  margin: 0 auto
-  min-height: 100vh
-  display: flex
-  flex-direction: column
-  justify-content: center
-  align-items: center
-  text-align: center
+
 .newgame
   text-transform: uppercase
   background-color: #031940
@@ -94,12 +87,10 @@ export default {
   width: 120px
   border-radius: 5px
   padding: 3px
-
 .game
   margin-top: 30px
   height: 500px
   width: 500px
-  border: 2px solid rgba(0,0,0,.5)
   border-radius: 5px
   display: grid
   grid-template-columns: 1fr 1fr 1fr 1fr
@@ -111,6 +102,7 @@ export default {
   align-items: center
   justify-content: center
   font-size: 22px
+  font-weight: 600
   color: #031940
   border-radius: 5px
   background-color: #8fb7ba
